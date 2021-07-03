@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+    height: 500px;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+.flexible_container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+/* =============== common css end ============== */
+.top_banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 150px;
+}
+
+.top_banner_pera {
+    margin-bottom: 40px;
+}
+
+.half_width {
+    width: 50%;
+    padding-left: 2%;
+
+}
+
+.half_width img {
+    width: 80%;
+}
+
+.link_btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: linear-gradient(60deg, lightSalmon, tomato);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.name_span {
+    color: orange;
+}
+
+/* =============== top area part end ============== */
+.dream_area {
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    background-size: cover;
+
+}
+
+.dream_area_pera {
+    margin-bottom: 40px;
+}
+
+/* =============== dream area part end ============== */
+.experience_area {
+    background: url(../images/exp-bg.png) left no-repeat;
+}
+
+.experience_item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.experience_item {
+    padding: 20px;
+    box-shadow: 1px 5px 22px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.experience_item h3 {
+    color: orange;
+
+}
+
+.experience_item1_border {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon, tomato);
+    border-image-slice: 1;
+}
+
+.experience_item2_border {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/* =============== experience area part end ============== */
